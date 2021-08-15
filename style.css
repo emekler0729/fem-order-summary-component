@@ -19,6 +19,13 @@ body {
     font-family: var(--font-family);
 }
 
+@media (min-width: 800px) {
+    body {
+        background-position: 50% 200%;
+        background-color: hsl(224, 100%, 94%);
+    }
+}
+
 .card {
     min-width: 300px;
     max-width: 425px;
@@ -40,6 +47,12 @@ body {
     max-width: 330px;
     margin: 0 auto;
     padding: 2rem 0;
+}
+
+@media (min-width: 800px) {
+    .card__body {
+        max-width: 380px;
+    }
 }
 
 .card__info {
