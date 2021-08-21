@@ -17,11 +17,11 @@
 body {
     background: center / cover no-repeat url("images/pattern-background-mobile.svg") #d6e1ff;
     font-family: var(--font-family);
+    background-position: bottom 15rem left 50%;
 }
 
 @media (min-width: 800px) {
     body {
-        background-position: 50% 200%;
         background-color: hsl(224, 100%, 94%);
     }
 }
